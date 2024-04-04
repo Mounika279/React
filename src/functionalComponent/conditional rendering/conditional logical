@@ -1,0 +1,21 @@
+
+const Condition=()=>{
+
+ const isloggedIn=false
+return(
+    <>
+{
+    isloggedIn &&
+    <Text msg="sucess"/>
+    // :<Text msg="fail"/>
+}
+    </>
+)
+ }
+ export default Condition
+
+ function Text({msg}){
+return(
+    <h4>{msg}</h4>
+)
+ }
