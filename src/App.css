@@ -1,4 +1,4 @@
-.fruit-table,
+/* .fruit-table,
 .vegetable-table,
 .flower-table {
   border-collapse: collapse;
@@ -14,4 +14,118 @@
 
 .ff {
   text-align: center;
+}
+.btn1, .btn2, .btn3 {
+  position: relative;
+  top: 20px;
+  right: 20px;
+  background-color: coral;
+  color: white;
+  font-weight: 700;
+  padding: 10px;
+  margin: 5px;
+  height: 40px;
+  width: 80px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.card{
+  display: inline-block;
+  border: 2px solid lightcyan;
+  background-color: lightskyblue;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.cardbutton{
+  color: white;
+  height: 20px;
+  position: relative;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+} */
+/* .cards{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 13px;
+  margin: 75px;
+  gap:35px;
+  
+}
+.items{
+  border:1px solid black;
+  width:29%; 
+  height:450px;
+} */
+/* .items:hover{
+  scale:0.9
+} */
+/* .img{
+  position: relative;
+  left:90px;
+  border-radius: 5px;
+}
+.name{
+  color: orange;
+  font-size: x-large;
+  margin: 10px;
+  position: relative;
+  left: 15px;
+}
+.cuisine{
+  color: darkslateblue;
+  position: relative;
+  left:90px;
+  font-size: 20px;
+}
+.type{
+  color:olivedrab;
+  position: relative;
+  left:90px;
+  font-size: 20px;
+}
+.rest{
+  color: firebrick;
+  text-align: center;
+}
+.btns{
+  position: relative;
+  top:40px;
+  left:-60px;
+} */
+.added{
+  color: darkslateblue;
+  position: relative;
+  left:150px
+}
+.add{
+  margin-top: -100px;
+  color: cornflowerblue;
+  text-align: center;
+  font-weight: bolder;
+}
+.update{
+  color: cornflowerblue;
+  font-weight: bolder;
+  text-align: center;
+}
+.btns{
+  color: aliceblue;
+  font-weight: bold;
+  background-color: deeppink;
+  height: 40px;
+  width:60px;
+  margin: 2px;
+}
+.btnss{
+  color: aliceblue;
+  font-weight: bold;
+  background-color: darkolivegreen;
+  height: 40px;
+  width:90px;
+  margin: 20px;
+  
 }
