@@ -96,7 +96,7 @@
   top:40px;
   left:-60px;
 } */
-.added{
+/* .added{
   color: darkslateblue;
   position: relative;
   left:150px
@@ -128,4 +128,154 @@
   width:90px;
   margin: 20px;
   
+} */
+/* body{
+  background-color:darkslateblue;
+} */
+/* .columns{
+  height: 50px;
+  background-color: palevioletred;
+ color:white;
+}
+.rows{
+ position: relative;
+ left:600px;
+ top:200px;
+ width: max-content;
+ background-color: palevioletred;
+ color:white;
+ height: 50px;
+width:200px;
+text-align: center;
+}
+label{
+  font-size: xx-large;
+  font-weight: bold;
+  color:white;
+}
+label:focus{
+  color:white;
+  font-weight: 900;
+}
+#exampleInputEmail1{
+  position: relative;
+  left:660px;
+  top:100px;
+  padding: 10px;
+  margin: 5px;
+  background-color: chocolate;
+  color:white
+}
+#exampleInputPassword1{
+  position: relative;
+  left:630px;
+  top:100px;
+  padding: 10px;
+  margin: 5px;
+  background-color: chocolate;
+}
+label{
+  position: relative;
+  left:650px;
+  top:100px;
+  font-size: large;
+}
+#pwd{
+  position: relative;
+  left:620px;
+  top:100px;
+  font-size: large;
+}
+button{
+  position: relative;
+  left:750px;
+  top:130px;
+  font-size: large;
+  background-color: darkslateblue;
+  color: aliceblue;
+}
+h1{
+ position: relative;
+ top:50px;
+ left:650px;
+  color: azure;
+} */
+body{
+  background-color: black;
+}
+.cards{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* padding: 5px; */
+  margin: 75px;
+  gap:40px;
+  
+}
+.items{
+  border:1px solid black;
+  width:29%; 
+  height:500px;
+  padding: 5px;
+  background-color: lavenderblush;
+} 
+.image{
+  position: relative;
+  left:90px;
+  border-radius: 10px;
+}
+.top{
+  position: relative;
+  left:500px;
+  margin: 15px;
+  margin-top: 80px;
+  padding: 15px;
+  font-size: x-large;
+  color: azure;
+  font-weight: 600;
+  background-color: darkslategray;
+}
+.title{
+  text-align: center;
+  color: darkslategray;
+  font-size: larger;
+}
+.count{
+  text-align: center;
+  color: darkslategray;
+  font-size: large;
+}
+.total{
+  text-align: center;
+  color: darkslategray;
+  font-size: large;
+}
+.price{
+  text-align: center;
+  color: darkslategray;
+  font-size: x-large;
+}
+.add{
+  position: relative;
+  left:130px;
+  color: darkslategray;
+  font-size: x-large;
+  margin:20px
+
+}
+.del{
+  position: relative;
+  left:150px;
+  color: darkslategray;
+  font-size: x-large;
+}
+.totall{
+  font-size: xx-large;
+  position: fixed;
+  color:darkslateblue;
+  background-color: aliceblue;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+ 
 }

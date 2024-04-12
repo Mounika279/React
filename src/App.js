@@ -7,6 +7,11 @@
 // import Fruits from './functionalComponent/29April gprop/29AprilTask/fruits';
 // import { Button } from 'react-bootstrap';
 import  "./App.css"
+import AddtoCart from "./class components/5apr2024/addtocart"
+import UseStateExample3 from "./functionalComponent/10apr 2024/form task"
+import Form2 from "./functionalComponent/10apr 2024/form task"
+import Form from "./functionalComponent/10apr 2024/form task"
+import Formref from "./functionalComponent/10apr 2024/uncontrollable"
 import UseStateex from "./functionalComponent/8apr 2024/useStateex-1"
 import UseEx3 from "./functionalComponent/8apr 2024/useStateex3"
 // import Usestate from "./functionalComponent/8apr 2024/hooksuseState"
@@ -45,8 +50,12 @@ function App(){
 {/* <ProductList/> */}
 {/* <Api/> */}
 {/* <Usestate/> */}
-<UseStateex/>
-<UseEx3/>
+{/* <UseStateex/>
+<UseEx3/> */}
+{/* <Formref/> */}
+{/* <Form2/> */}
+<AddtoCart/>
+
 </>
   )
 }
