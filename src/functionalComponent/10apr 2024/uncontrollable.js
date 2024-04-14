@@ -1,7 +1,5 @@
 import { useRef, useState } from "react"
 
-
-
 const Formref =()=>{
     const userNameRef=useRef("")
     const passWordRef=useRef("")
@@ -10,11 +8,12 @@ const Formref =()=>{
     const handleSubmit=(event)=>{
         event.preventDefault()
 console.log("submitted")
+
 const user=userNameRef.current.value
 const pw=passWordRef.current.value
+
 if(user.length<5 && pw.length<5){
     setErrorVisible(true)
- 
 }else{
     setErrorVisible(false)
     console.log("ok submitted")

@@ -12,6 +12,7 @@ import UseStateExample3 from "./functionalComponent/10apr 2024/form task"
 import Form2 from "./functionalComponent/10apr 2024/form task"
 import Form from "./functionalComponent/10apr 2024/form task"
 import Formref from "./functionalComponent/10apr 2024/uncontrollable"
+import Forms1 from "./functionalComponent/12apr2024/controllable"
 import UseStateex from "./functionalComponent/8apr 2024/useStateex-1"
 import UseEx3 from "./functionalComponent/8apr 2024/useStateex3"
 // import Usestate from "./functionalComponent/8apr 2024/hooksuseState"
@@ -54,7 +55,9 @@ function App(){
 <UseEx3/> */}
 {/* <Formref/> */}
 {/* <Form2/> */}
-<AddtoCart/>
+{/* <AddtoCart/> */}
+<Forms1/>
+
 
 </>
   )

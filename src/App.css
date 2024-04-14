@@ -200,19 +200,19 @@ h1{
  left:650px;
   color: azure;
 } */
-body{
+/* body{
   background-color: black;
-}
-.cards{
+} */
+/* .cards{
   display:flex;
   flex-direction: row;
   flex-wrap: wrap;
-  /* padding: 5px; */
+  padding: 5px;
   margin: 75px;
   gap:40px;
   
-}
-.items{
+} */
+/* .items{
   border:1px solid black;
   width:29%; 
   height:500px;
@@ -278,4 +278,41 @@ body{
   padding: 10px;
   border-radius: 10px;
  
+} */
+body{
+  background-color: black;
+}
+
+table,tr,th,td{
+  text-align: center;
+  border:2px solid black;
+  border-collapse: collapse;
+  margin: 10px;
+}
+table{
+  position: relative;
+  left:500px;
+  top:40px;
+  color: white;
+  font-size: x-large;
+  background-color: darkgoldenrod;
+}
+form{
+  background-color: darkslateblue;
+  color: aliceblue;
+  font-weight: bold;
+}
+.btn1{
+  color: aliceblue;
+  background-color:darkslateblue ;
+  font-weight: bold;
+  height: 40px;
+  width: 70px;
+  font-size: large;
+}
+h2{
+  color:white;
+  background-color: darkgoldenrod;
+  width: fit-content;
+  text-align: center;
 }
