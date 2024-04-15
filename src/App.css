@@ -279,7 +279,7 @@ h1{
   border-radius: 10px;
  
 } */
-body{
+/* body{
   background-color: black;
 }
 
@@ -315,4 +315,18 @@ h2{
   background-color: darkgoldenrod;
   width: fit-content;
   text-align: center;
+} */
+body{
+  background-color: darkolivegreen;
+}
+form{
+  color: white;
+  font-size: larger;
+}
+button{
+  height: 30px;
+  width: 90px;
+  font-size: larger;
+  color: white;
+  background-color: darkslategray;
 }
