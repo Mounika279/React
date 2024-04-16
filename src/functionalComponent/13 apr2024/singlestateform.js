@@ -53,8 +53,18 @@ const Singleform1=()=>{
           setForm({
             email:"",
             password:""
-          })
-          
+          })      
+   }
+   const apiHit=async()=>{
+  const result=fetch('https://dummyjson.com/auth/login', {
+  method: 'POST',
+  headers: { 'Content-Type': 'application/json' },
+  body: JSON.stringify({   
+    username: 'kminchelle',
+    password: '0lelplR',
+    expiresInMins: 30, // optional, defaults to 60
+  })
+})
    }
     return(
         <>

@@ -316,7 +316,7 @@ h2{
   width: fit-content;
   text-align: center;
 } */
-body{
+/* body{
   background-color: darkolivegreen;
 }
 form{
@@ -329,4 +329,44 @@ button{
   font-size: larger;
   color: white;
   background-color: darkslategray;
+} */
+h1{
+  text-align: center;
+  color: darkgoldenrod;
+  font-size: xx-large;
+}
+button{
+background-color: darkgoldenrod;
+border: 3px solid darkgoldenrod;
+color: white;
+height: 40px;
+width: 80px;
+font-weight: bold;
+margin: 10px;
+position: relative;
+left:650px;
+margin-top: 450px;
+border-radius: 5px;
+}
+.image{
+  position: relative;
+  left:600px;
+  top:-500px;
+
+}
+h3{
+color:midnightblue;
+/* background-color: coral; */
+border-radius: 5px;
+width: fit-content;
+position: relative;
+top:-500px;
+left:640px;
+font-size:x-large
+}
+.instruct{
+  position:relative;
+  top:-350px;
+  border: 1px solid goldenrod;
+  width: 80px;
 }
