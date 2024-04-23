@@ -40,7 +40,7 @@ const UseEffectReciepe=()=>{
     }
     return(
         <>
-        <h1>Food Items</h1>
+        {/* <h1>Food Items</h1> */}
         {/* <h5>{count}</h5> */}
         <button onClick={decrementHandler}>Previous</button>
         <button onClick={incrementHandler}>Next</button>

@@ -46,7 +46,7 @@
   margin: 10px;
   padding: 10px;
 } */
-/* .cards{
+ /* .cards{
   display:flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -59,13 +59,11 @@
   border:1px solid black;
   width:29%; 
   height:450px;
-} */
-/* .items:hover{
-  scale:0.9
-} */
-/* .img{
+}
+ .img{
   position: relative;
   left:90px;
+  top:-280px;
   border-radius: 5px;
 }
 .name{
@@ -90,12 +88,14 @@
 .rest{
   color: firebrick;
   text-align: center;
+  position: relative;
+  top:50px;
 }
 .btns{
   position: relative;
-  top:40px;
+  top:-240px;
   left:-60px;
-} */
+}  */
 /* .added{
   color: darkslateblue;
   position: relative;
@@ -203,7 +203,7 @@ h1{
 /* body{
   background-color: black;
 } */
-/* .cards{
+/* /* .cards{
   display:flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -212,7 +212,7 @@ h1{
   gap:40px;
   
 } */
-/* .items{
+ /* .items{
   border:1px solid black;
   width:29%; 
   height:500px;
@@ -239,7 +239,7 @@ h1{
   text-align: center;
   color: darkslategray;
   font-size: larger;
-}
+} 
 .count{
   text-align: center;
   color: darkslategray;
@@ -278,7 +278,7 @@ h1{
   padding: 10px;
   border-radius: 10px;
  
-} */
+} */ */
 /* body{
   background-color: black;
 }
@@ -318,9 +318,10 @@ h2{
 } */
 /* body{
   background-color: darkolivegreen;
-}
-form{
-  color: white;
+} */
+/* /* form{
+  background-color: cornflowerblue;
+  color: black;
   font-size: larger;
 }
 button{
@@ -329,13 +330,14 @@ button{
   font-size: larger;
   color: white;
   background-color: darkslategray;
-} */
-h1{
+}  */
+ h1{
   text-align: center;
   color: darkgoldenrod;
   font-size: xx-large;
+  
 }
-button{
+/* button{
 background-color: darkgoldenrod;
 border: 3px solid darkgoldenrod;
 color: white;
@@ -344,29 +346,230 @@ width: 80px;
 font-weight: bold;
 margin: 10px;
 position: relative;
+top:40px;
 left:650px;
 margin-top: 450px;
 border-radius: 5px;
-}
-.image{
+}  */
+ /* .image{
   position: relative;
   left:600px;
-  top:-500px;
+  top:-430px;
 
 }
 h3{
 color:midnightblue;
-/* background-color: coral; */
-border-radius: 5px;
+ /* background-color: coral;  */
+ /* border-radius: 5px;
 width: fit-content;
 position: relative;
-top:-500px;
-left:640px;
+top:-420px;
+left:620px;
 font-size:x-large
-}
-.instruct{
+}  */ */
+ .instruct{
   position:relative;
   top:-350px;
   border: 1px solid goldenrod;
   width: 80px;
+} 
+.link-no-decoration {
+  text-decoration: none;
+  margin: 50px;
+  position: relative;
+  left:300px;
+ top:20px;
+ font-size: x-large;
+ color: darkslateblue;
+ font-weight: bold;
+ background-color: aliceblue;
+}
+.service{
+  position: relative;
+  top:200px;
+  background-color: darkslateblue;
+  color: aliceblue;
+  width: fit-content;
+left:600px;
+font-size: xx-large;
+}
+.booking{
+  position: relative;
+  top:200px;
+  background-color: darkslateblue;
+  color: aliceblue;
+  width: fit-content;
+left:600px;
+font-size: xx-large;
+}
+.trecipes{
+  /* border: 2px solid black; */
+  height: 400px;
+  width: 300px;
+  display: inline-block;
+  position: relative;
+  left:100px;
+  top:140px;
+  padding: 20px;
+  margin: 40px;
+}
+.himage{
+  position: relative;
+  left:50px; 
+}
+.hname{
+  color:brown;
+  position: relative;
+  left:20px
+}
+
+.btn1{
+margin: 20px;
+margin-left: 40px;
+background-color: chocolate;
+  border: 2px solid chocolate;
+position: relative;
+height: 30px;
+width: 80px;
+top:30px;
+color: white;
+font-size: medium;
+font-weight: bold;
+border-radius: 5px;
+text-align: center;
+}
+.btn2{
+  background-color: chocolate;
+  border: 2px solid chocolate;
+position: relative;
+height: 30px;
+width: 80px;
+top:30px;
+color: white;
+font-size: medium;
+border-radius: 5px;
+font-weight: bold;
+text-align: center;
+}
+.btn3{
+  position: relative;
+  left:100px;
+  top:30px;
+  background-color: chocolate;
+  border: 2px solid chocolate;
+  height: 50px;
+  width: 80px;
+  color: white;
+  font-size: medium;
+  font-weight: bold;
+  border-radius: 5px;
+  text-align: center;
+}
+.rbtn1{
+  border: 3px solid white;
+  background-color: darkslategray;
+  height: 40px;
+  width: 60px;
+  color: white;
+  font-size: larger;
+  font-weight: bold;
+  border-radius: 5px;
+  text-align: center;
+}
+.rbtn2{
+  border: 3px solid white;
+  background-color: darkslategray;
+  height: 40px;
+  width: 90px;
+  color: white;
+  font-size: larger;
+  font-weight: bold;
+  border-radius: 5px;
+  text-align: center;
+}
+.cart{
+  position: relative;
+  top:-300px;
+  left:1350px
+}
+.cartpage{
+  display: inline;
+  position: relative;
+  top:90px;
+  font-size: medium;
+  margin:10px
+}
+.cartname{
+  margin-left: 700px;
+}
+.cartimage{
+  margin-left: 700px;
+  padding: 10px;
+}
+.removecart{
+  border: 3px solid white;
+  background-color: chocolate;
+  position: relative;
+  left:-150px;
+  top:14px;
+  height: 30px;
+  width: 70px;
+  color: white;
+  font-size: medium;
+  font-weight: bold;
+  border-radius: 5px;
+  text-align: center;
+}
+.tryfav{
+  position: relative;
+  top:300px;
+  color: darkslategrey;
+  font-size: x-large;
+  text-align: center;
+}
+.navbar-nav{
+  position:fixed;
+}
+.rname{
+  position: relative;
+  top:100px;
+  color:darkorange
+}
+.rimage{
+  position: relative;
+  top:90px;
+}
+.rinstruct{
+  position: relative;
+  top:90px;
+  width:400px;
+}
+.rtime{
+  position: relative;
+  top:100px;
+  left: 50px;
+  font-size: large;
+}
+.rtype{
+  position: relative;
+  top:55px;
+  left: 50px;
+  font-size: large;
+}
+.rbtn1{
+  position: relative;
+  left:80px;
+  top:40px;
+  background-color: chocolate;
+  
+}
+.rbtn2{
+  position: relative;
+  top:40px;
+  left:80px;
+  background-color: chocolate;
+}
+.totalrecipe{
+  position: relative;
+  left:600px
 }

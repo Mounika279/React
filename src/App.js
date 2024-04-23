@@ -1,11 +1,6 @@
-// import Image from "./functionalComponent/28apriltask 2024/img"
-// import Table from "./functionalComponent/28apriltask 2024/table"
-// import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-// import Condition from './functionalComponent/conditional rendering/conditional';
-// import Empdata from './functionalComponent/29April gprop/filter';
-// import Employee from './functionalComponent/29April gprop/29AprilTask/emp';
-// import Fruits from './functionalComponent/29April gprop/29AprilTask/fruits';
-// import { Button } from 'react-bootstrap';
+
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
 import  "./App.css"
 // import AddtoCart from "./class components/5apr2024/addtocart"
 // import UseStateExample3 from "./functionalComponent/10apr 2024/form task"
@@ -22,7 +17,8 @@ import  "./App.css"
 // import Example2 from "./functionalComponent/15apr 2024/useeffectex2"
 // import UseStateex from "./functionalComponent/8apr 2024/useStateex-1"
 // import UseEx3 from "./functionalComponent/8apr 2024/useStateex3"
-import UseEffectReciepe from "./functionalComponent/15apr 2024/15apr2024/useEffectReciepe"
+
+import Navigation from "./functionalComponent/16apr 2024/navigation";
 // import Usestate from "./functionalComponent/8apr 2024/hooksuseState"
 // import Picture from "./class components/2apr2024/picadddel"
 // import Cartoon from "./class components/3apr2024/crud"
@@ -39,41 +35,14 @@ import UseEffectReciepe from "./functionalComponent/15apr 2024/15apr2024/useEffe
 
 function App(){
   return(
-    <>
-{/* <Greeting>
-  <h1>gd nyt</h1>
-</Greeting>
-<Greeting>
-  <h1>gd aftrnoon</h1>
-</Greeting>
-<Greeting>
-  <h1>gd mrng</h1>
-</Greeting> */}
-{/* <Condition/> */}
-{/* <Employee/> */}
-{/* <Fruits/> */}
-{/* <ButtonComponent/> */}
-{/* <CounterComponent/> */}
-{/* <Picture/> */}
-{/* <Cartoon/> */}
-{/* <ProductList/> */}
-{/* <Api/> */}
-{/* <Usestate/> */}
-{/* <UseStateex/>
-<UseEx3/> */}
-{/* <Formref/> */}
-{/* <Form2/> */}
-{/* <AddtoCart/> */}
-{/* <Forms1/> */}
-{/* <Singleform/> */}
-{/* <Singleform1/> */}
-{/* <ControlledComponent/> */}
-{/* <UseEffectExample/> */}
-{/* <Example2/> */}
-<UseEffectReciepe/>
+   <>
+ <Navigation/> 
+
+
 
 
 </>
+
   )
 }
 export default App
