@@ -19,6 +19,8 @@ import  "./App.css"
 // import UseEx3 from "./functionalComponent/8apr 2024/useStateex3"
 
 import Navigation from "./functionalComponent/16apr 2024/navigation";
+import Login from './functionalComponent/login/login';
+import Signup from './functionalComponent/signup/signup';
 // import Usestate from "./functionalComponent/8apr 2024/hooksuseState"
 // import Picture from "./class components/2apr2024/picadddel"
 // import Cartoon from "./class components/3apr2024/crud"
@@ -37,6 +39,8 @@ function App(){
   return(
    <>
  <Navigation/> 
+
+
 
 
 

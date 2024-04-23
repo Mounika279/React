@@ -7,7 +7,7 @@ import Header from "../16apr comp-nav/header";
 const ReciepeDetail = () => {
   const { id } = useParams();
   const [recipe, setRecipe] = useState({});
-  const { AddtoCart, removecart } = useContext(DataShare);
+  const { AddtoCart, removecart ,index } = useContext(DataShare);
 
   useEffect(() => {
     fetchProduct();
@@ -53,7 +53,7 @@ const ReciepeDetail = () => {
             <button onClick={() => AddtoCart(recipe)} className="rbtn1">
               Add
             </button>
-            <button onClick={() => removecart(id)} className="rbtn2">
+            <button onClick={() => removecart(index)} className="rbtn2">
               Remove 
             </button>
           </div>

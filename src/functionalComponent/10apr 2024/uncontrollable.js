@@ -47,12 +47,6 @@ if(user.length<5 && pw.length<5){
     />
   </div>
   {errorVisible &&<span style={{color:"red"}}>Username and password shd be greater than 5</span>}
-  {/* <div className="form-check">
-    <input type="checkbox" className="form-check-input" id="exampleCheck1" />
-    <label className="form-check-label" htmlFor="exampleCheck1">
-      Check me out
-    </label>
-  </div> */}
   <button type="submit" className="btn btn-primary">
     Submit
   </button>

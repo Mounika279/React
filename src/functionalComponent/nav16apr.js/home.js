@@ -30,7 +30,7 @@ const HomeScreen = () => {
       <Header />
       {recipes.length > 0 ? (
         recipes.map((eachRecipe, index) => {
-          const { name, image, id } = eachRecipe;
+          const { name, image ,id } = eachRecipe;
           return (
             <div className="trecipes" key={index}>
               <h2 className="hname">{name}</h2>

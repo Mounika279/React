@@ -7,7 +7,7 @@ const ServiceScreen=()=>{
     return(
 <>
 <Header/>
-
+<h3>Welcome to services</h3>
 
 </>
     )
